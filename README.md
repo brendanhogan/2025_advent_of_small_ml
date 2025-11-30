@@ -2,7 +2,7 @@
 
 ![Advent of Small ML Header](figs/day0.png)
 
-I have many little research ideas I've been curious to try and also a lot of research to catch up on (especially after being out on paternity leave!). Some are more research-oriented, some are more abstract/artistic/weird. 
+I have many little research ideas I've been curious to try (especially after being out on paternity leave!). Some are more research-oriented, some are more abstract/artistic/weird. 
 
 I'd love to give more time to each one, but as a forcing function I wanted to do the advent of ML ideas, for 25 days until Christmas I want to put out a half-baked idea with some initial experimentation. (And 1-2 posts will just be catching up on my reading list.)
 
