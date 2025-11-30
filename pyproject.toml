@@ -1,0 +1,26 @@
+[project]
+name = "2025-advent-of-small-ml-dev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.11.0",
+    "emoji>=2.15.0",
+    "fastapi>=0.121.3",
+    "flash-attn @ https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.4.11/flash_attn-2.8.3+cu124torch2.8-cp312-cp312-linux_x86_64.whl",
+    "imageio>=2.37.2",
+    "liger-kernel>=0.6.3",
+    "matplotlib>=3.10.7",
+    "openai>=2.8.1",
+    "qwen-vl-utils>=0.0.14",
+    "replicate>=1.0.7",
+    "reportlab>=4.4.5",
+    "scikit-optimize>=0.10.2",
+    "torch==2.8.0",
+    "transformers>=4.57.1",
+    "trl>=0.25.1",
+    "uvicorn>=0.38.0",
+    "vllm==0.10.2",
+]
+
