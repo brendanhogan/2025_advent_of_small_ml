@@ -1,7 +1,7 @@
 [project]
 name = "2025-advent-of-small-ml-dev"
 version = "0.1.0"
-description = "Add your description here"
+description = "25 days of micro ML experiments - an advent calendar of small machine learning research ideas"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
