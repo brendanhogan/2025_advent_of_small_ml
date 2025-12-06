@@ -1,3 +1,5 @@
+![Day 6: Steering Toward Novelty](day6.png)
+
 # Day 6: Steering Toward Novelty - Can We Guide LLMs to Generate Breakthrough Ideas?
 
 ## The Thought Experiment
