@@ -36,7 +36,20 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 
 ---
 
+## Days
+
+| Day | Summary |
+|-----|---------|
+| [Day 1](src/day1/) | **Reading List** — Curated ~80 papers, repos, and startup ideas from my bookmarks backlog (July → early November). |
+| [Day 2](src/day2/) | **Unsupervised VLM Training** — CycleGAN-style training for vision-language models: describe a chart, regenerate it with Flux, use cosine similarity as reward. ~8% improvement on CharXiv reasoning without any labeled data. |
+| [Day 3](src/day3/) | **Adversarial VLM Training** — Extension of Day 2 with an adversary model that learns to generate prompts for challenging images, creating a competitive training dynamic. |
+| [Day 4](src/day4/) | **Steering Vectors for Reasoning** — Extract activation differences between base and GRPO-finetuned models to create lightweight steering vectors that boost math reasoning performance. |
+| [Day 5](src/day5/) | **Bayesian Optimization for Steering** — Use Gaussian Processes to find optimal per-layer-group steering weights, matching full finetuning performance with just a few vectors. |
+| [Day 6](src/day6/) | **Steering Toward Novelty** — Can we steer LLMs toward more creative outputs? Using award-winning paper abstracts to build "creativity vectors" that guide models away from generic text. |
+| [Day 7](src/day7/) | **Entropy-Based Rewards** — Reward models for maintaining higher entropy in middle layers during reasoning, inspired by findings that reasoning models have higher internal entropy. |
+| [Day 8](src/day8/) | **LLM Personality Training** — Measure and modify LLM personality using the Big Five (OCEAN) framework. Train models toward target personalities like "the jerk" who actually pushes back on bad ideas. |
+
+---
+
 Some (or maybe all) of these ideas might be worth fleshing out more - if you're interested in that or just want to talk more, please message me on Twitter [@brendanh0gan](https://x.com/brendanh0gan)
-
-
 
