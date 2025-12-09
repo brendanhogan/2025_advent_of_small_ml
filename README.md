@@ -48,6 +48,7 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 6](src/day6/) | **Steering Toward Novelty** — Can we steer LLMs toward more creative outputs? Using award-winning paper abstracts to build "creativity vectors" that guide models away from generic text. |
 | [Day 7](src/day7/) | **Entropy-Based Rewards** — Reward models for maintaining higher entropy in middle layers during reasoning, inspired by findings that reasoning models have higher internal entropy. |
 | [Day 8](src/day8/) | **LLM Personality Training** — Measure and modify LLM personality using the Big Five (OCEAN) framework. Train models toward target personalities like "the jerk" who actually pushes back on bad ideas. |
+| [Day 9](src/day9/) | **GEPA vs GRPO** — Can prompt optimization match finetuning? Compare evolving prompts with LLM-powered reflection (GEPA) against weight updates (GRPO) on math reasoning. |
 
 ---
 
