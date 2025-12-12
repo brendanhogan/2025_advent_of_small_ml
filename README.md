@@ -49,6 +49,9 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 7](src/day7/) | **Entropy-Based Rewards** — Reward models for maintaining higher entropy in middle layers during reasoning, inspired by findings that reasoning models have higher internal entropy. |
 | [Day 8](src/day8/) | **LLM Personality Training** — Measure and modify LLM personality using the Big Five (OCEAN) framework. Train models toward target personalities like "the jerk" who actually pushes back on bad ideas. |
 | [Day 9](src/day9/) | **GEPA vs GRPO** — Can prompt optimization match finetuning? Compare evolving prompts with LLM-powered reflection (GEPA) against weight updates (GRPO) on math reasoning. |
+| [Day 10](src/day10/) | **GEPA + GRPO Composition** — Do prompt optimization and finetuning stack? Yes! Best results come from evolving a prompt with GEPA, then finetuning with GRPO using that prompt. |
+| [Day 11](src/day11/) | **Human Preference GRPO** — Train a model to write image prompts that make you happy, using round-robin tournaments with real human feedback. Impractical but surprisingly effective. |
+| [Day 12](src/day12/) | **Emotion-Based GRPO** — Replace human clicking with facial expression analysis. Hume AI reads your face as you view generated images, turning emotional reactions into reward signals. |
 
 ---
 
