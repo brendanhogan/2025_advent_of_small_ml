@@ -52,6 +52,8 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 10](src/day10/) | **GEPA + GRPO Composition** — Do prompt optimization and finetuning stack? Yes! Best results come from evolving a prompt with GEPA, then finetuning with GRPO using that prompt. |
 | [Day 11](src/day11/) | **Human Preference GRPO** — Train a model to write image prompts that make you happy, using round-robin tournaments with real human feedback. Impractical but surprisingly effective. |
 | [Day 12](src/day12/) | **Emotion-Based GRPO** — Replace human clicking with facial expression analysis. Hume AI reads your face as you view generated images, turning emotional reactions into reward signals. |
+| [Day 13](src/day13/) | **Cartridges** — Compress long documents into tiny learnable KV caches. A 6000+ token document distilled to 1024 vectors achieves ~72% of full-context accuracy with 16% of the tokens. |
+| [Day 14](src/day14/) | **ENGRAM Continual Learning** — Mimic human learning: develop skills via prompt optimization, then distill into cartridge KV vectors. Iteratively build frozen cartridges while resetting skills, enabling continual learning without weight updates. |
 
 ---
 
