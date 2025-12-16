@@ -20,10 +20,16 @@ dependencies = [
     "replicate>=1.0.7",
     "reportlab>=4.4.5",
     "scikit-optimize>=0.10.2",
+    "tau2",
+    "tau2-bench>=0.1.5",
     "torch==2.8.0",
     "transformers>=4.57.1",
     "trl>=0.25.1",
     "uvicorn>=0.38.0",
+    "verifiers>=0.1.8.post1",
     "vllm==0.10.2",
 ]
+
+[[tool.uv.index]]
+url = "https://hub.primeintellect.ai/will/simple/"
 

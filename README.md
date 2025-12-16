@@ -54,6 +54,8 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 12](src/day12/) | **Emotion-Based GRPO** — Replace human clicking with facial expression analysis. Hume AI reads your face as you view generated images, turning emotional reactions into reward signals. |
 | [Day 13](src/day13/) | **Cartridges** — Compress long documents into tiny learnable KV caches. A 6000+ token document distilled to 1024 vectors achieves ~72% of full-context accuracy with 16% of the tokens. |
 | [Day 14](src/day14/) | **ENGRAM Continual Learning** — Mimic human learning: develop skills via prompt optimization, then distill into cartridge KV vectors. Iteratively build frozen cartridges while resetting skills, enabling continual learning without weight updates. |
+| [Day 15](src/day15/) | **Teaching a Model to Daydream** — Apply ENGRAM to creative thinking itself. Train a model to find novel connections between random concepts (entropy ↔ democracy), distilling the skill of "seeing connections" into a cartridge. |
+| [Day 16](src/day16/) | **ENGRAM for Wiki Search** — ENGRAM meets tool use. A multi-turn agent learns Wikipedia search strategies through skill refinement and cartridge distillation, improving from 0% to 40% accuracy on trivia questions. |
 
 ---
 
