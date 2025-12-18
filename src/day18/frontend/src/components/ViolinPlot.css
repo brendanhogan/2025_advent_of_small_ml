@@ -1,0 +1,36 @@
+.violin-plot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.violin-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.violin-svg {
+  display: block;
+}
+
+.violin-stats {
+  margin-top: 10px;
+  font-size: 11px;
+  color: #666;
+  display: flex;
+  gap: 15px;
+}
+
+.violin-placeholder {
+  padding: 40px;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}

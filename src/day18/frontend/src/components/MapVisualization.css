@@ -1,0 +1,181 @@
+.map-container {
+  padding: 30px 40px 40px 40px;
+  background: #fff;
+}
+
+.map-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.metric-selector {
+  display: flex;
+  gap: 0;
+  border: 1px solid #121212;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.metric-selector button {
+  padding: 10px 24px;
+  background: #fff;
+  border: none;
+  border-right: 1px solid #121212;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.15s;
+  color: #121212;
+}
+
+.metric-selector button:last-child {
+  border-right: none;
+}
+
+.metric-selector button:hover {
+  background: #f0f0f0;
+}
+
+.metric-selector button.active {
+  background: #121212;
+  color: #fff;
+}
+
+.map-legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.legend-scale {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #666;
+}
+
+.legend-gradient-diverging {
+  width: 240px;
+  height: 16px;
+  background: linear-gradient(to right, #c41d24 0%, #e8a0a0 30%, #f5f5f5 50%, #a0c4e8 70%, #1d4e89 100%);
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+/* NYT-style political gradient: Red (GPT) -> Grey -> Blue (Model) */
+.legend-gradient-political {
+  width: 240px;
+  height: 16px;
+  background: linear-gradient(to right, 
+    #b2182b 0%, 
+    #ef8a62 25%, 
+    #e0e0e0 50%, 
+    #67a9cf 75%, 
+    #2166ac 100%
+  );
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  font-size: 10px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.map-wrapper {
+  background: #f7f7f5;
+  border-radius: 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 1px solid #e8e8e8;
+}
+
+.map-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  margin-top: 10px;
+}
+
+.tooltip-state {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.tooltip-stats {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+.tooltip-winrate {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tooltip-n {
+  margin-top: 6px;
+  color: #888;
+  font-size: 11px;
+}
+
+.map-stats {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 25px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.map-stat-item {
+  text-align: center;
+}
+
+.map-stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  color: #121212;
+  margin-bottom: 4px;
+}
+
+.map-stat-label {
+  font-size: 11px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.map-stat-item.model .map-stat-value {
+  color: #2166ac;
+}
+
+.map-stat-item.gpt .map-stat-value {
+  color: #b2182b;
+}
+
+.map-placeholder {
+  padding: 60px;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}

@@ -1,0 +1,1349 @@
+{
+  "config": {
+    "content": "Just found out sourdough is actually easier to make than regular bread!",
+    "num_personas": 50,
+    "start_idx": 0,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "timing": {
+    "total_seconds": 22.34049892425537,
+    "personas_per_second": 2.2380878855715416,
+    "avg_latency_ms": 399.65285301208496
+  },
+  "overall": {
+    "n": 50,
+    "likeability": {
+      "mean": 3.86,
+      "std": 0.5295280917949491,
+      "min": 3,
+      "max": 5,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 11,
+        "4": 35,
+        "5": 4
+      }
+    },
+    "emotional_activation": {
+      "mean": 2.28,
+      "std": 0.530659966456864,
+      "min": 2,
+      "max": 4,
+      "distribution": {
+        "1": 0,
+        "2": 38,
+        "3": 10,
+        "4": 2,
+        "5": 0
+      }
+    }
+  },
+  "by_demographic": {
+    "sex": {
+      "Female": {
+        "n": 23,
+        "likeability": {
+          "mean": 4.0,
+          "std": 0.41702882811414954,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 19,
+            "5": 2
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.391304347826087,
+          "std": 0.5702120455914783,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 15,
+            "3": 7,
+            "4": 1,
+            "5": 0
+          }
+        }
+      },
+      "Male": {
+        "n": 27,
+        "likeability": {
+          "mean": 3.740740740740741,
+          "std": 0.5832598425193934,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 9,
+            "4": 16,
+            "5": 2
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.185185185185185,
+          "std": 0.4743054990690999,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 23,
+            "3": 3,
+            "4": 1,
+            "5": 0
+          }
+        }
+      }
+    },
+    "marital_status": {
+      "never_married": {
+        "n": 28,
+        "likeability": {
+          "mean": 3.7857142857142856,
+          "std": 0.6185895741317419,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 9,
+            "4": 16,
+            "5": 3
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.357142857142857,
+          "std": 0.6102859818083951,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 20,
+            "3": 6,
+            "4": 2,
+            "5": 0
+          }
+        }
+      },
+      "married_present": {
+        "n": 17,
+        "likeability": {
+          "mean": 4.0,
+          "std": 0.3429971702850177,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 15,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.235294117647059,
+          "std": 0.42418250299576343,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 13,
+            "3": 4,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    },
+    "education_level": {
+      "high_school": {
+        "n": 9,
+        "likeability": {
+          "mean": 3.888888888888889,
+          "std": 0.5665577237325317,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 6,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.3333333333333335,
+          "std": 0.4714045207910317,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 6,
+            "3": 3,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "bachelors": {
+        "n": 9,
+        "likeability": {
+          "mean": 3.888888888888889,
+          "std": 0.3142696805273545,
+          "min": 3,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 0
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.111111111111111,
+          "std": 0.3142696805273545,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 8,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "some_college": {
+        "n": 5,
+        "likeability": {
+          "mean": 4.2,
+          "std": 0.39999999999999997,
+          "min": 4,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.6,
+          "std": 0.8,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 3,
+            "3": 1,
+            "4": 1,
+            "5": 0
+          }
+        }
+      },
+      "graduate": {
+        "n": 5,
+        "likeability": {
+          "mean": 4.2,
+          "std": 0.39999999999999997,
+          "min": 4,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.2,
+          "std": 0.39999999999999997,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 4,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "less_than_9th": {
+        "n": 14,
+        "likeability": {
+          "mean": 3.5,
+          "std": 0.5,
+          "min": 3,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 7,
+            "4": 7,
+            "5": 0
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.142857142857143,
+          "std": 0.3499271061118826,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 12,
+            "3": 2,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    },
+    "state": {
+      "CA": {
+        "n": 8,
+        "likeability": {
+          "mean": 3.75,
+          "std": 0.4330127018922193,
+          "min": 3,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 6,
+            "5": 0
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.125,
+          "std": 0.33071891388307384,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 7,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "MI": {
+        "n": 5,
+        "likeability": {
+          "mean": 4.2,
+          "std": 0.39999999999999997,
+          "min": 4,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.2,
+          "std": 0.39999999999999997,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 4,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "NY": {
+        "n": 5,
+        "likeability": {
+          "mean": 4.0,
+          "std": 0.6324555320336759,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.6,
+          "std": 0.8,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 3,
+            "3": 1,
+            "4": 1,
+            "5": 0
+          }
+        }
+      },
+      "TX": {
+        "n": 5,
+        "likeability": {
+          "mean": 3.6,
+          "std": 0.4898979485566356,
+          "min": 3,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 3,
+            "5": 0
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.0,
+          "std": 0.0,
+          "min": 2,
+          "max": 2,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    },
+    "age_bracket": {
+      "18-24": {
+        "n": 18,
+        "likeability": {
+          "mean": 3.5555555555555554,
+          "std": 0.5983516452371671,
+          "min": 3,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 9,
+            "4": 8,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.1666666666666665,
+          "std": 0.37267799624996495,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 15,
+            "3": 3,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "25-34": {
+        "n": 10,
+        "likeability": {
+          "mean": 4.2,
+          "std": 0.39999999999999997,
+          "min": 4,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 8,
+            "5": 2
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.7,
+          "std": 0.7810249675906654,
+          "min": 2,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 5,
+            "3": 3,
+            "4": 2,
+            "5": 0
+          }
+        }
+      },
+      "45-54": {
+        "n": 5,
+        "likeability": {
+          "mean": 4.2,
+          "std": 0.39999999999999997,
+          "min": 4,
+          "max": 5,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 4,
+            "5": 1
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.4,
+          "std": 0.4898979485566356,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 3,
+            "3": 2,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "65+": {
+        "n": 9,
+        "likeability": {
+          "mean": 3.888888888888889,
+          "std": 0.3142696805273545,
+          "min": 3,
+          "max": 4,
+          "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 8,
+            "5": 0
+          }
+        },
+        "emotional_activation": {
+          "mean": 2.111111111111111,
+          "std": 0.3142696805273545,
+          "min": 2,
+          "max": 3,
+          "distribution": {
+            "1": 0,
+            "2": 8,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      }
+    }
+  },
+  "ratings": [
+    {
+      "uuid": "e7c0574639a244c8972c92aab9501035",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "I find this interesting and relate to the hands-on nature of baking, but I'm not a sourdough expert so it's moderately engaging.",
+      "sex": "Female",
+      "age": 28,
+      "marital_status": "never_married",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "fast_food_or_counter_worker",
+      "city": "Madison",
+      "state": "WI",
+      "zipcode": "53717",
+      "latency_ms": 1802.7827739715576
+    },
+    {
+      "uuid": "50f90a6f17de473f9ca15f00afdedf7a",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find sourdough interesting as it involves a bit of science and patience, which aligns with my approach to research and creativity.",
+      "sex": "Female",
+      "age": 29,
+      "marital_status": "divorced",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "computer_or_information_research_scientist",
+      "city": "Chico",
+      "state": "CA",
+      "zipcode": "95928",
+      "latency_ms": 382.1873664855957
+    },
+    {
+      "uuid": "f2f5dbaf4d3d43f68adeb7f318afa3a2",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Sourdough baking sounds interesting and could be a new hobby to add to my routine, but I'm not overly excited about it.",
+      "sex": "Female",
+      "age": 85,
+      "marital_status": "married_present",
+      "education_level": "some_college",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Saline",
+      "state": "MI",
+      "zipcode": "48176",
+      "latency_ms": 377.6593208312988
+    },
+    {
+      "uuid": "5237e90a0ca3460dbbcba20adb61922f",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because I enjoy learning new things about baking, but I'm not overly excited since I've never tried sourdough before.",
+      "sex": "Female",
+      "age": 34,
+      "marital_status": "married_present",
+      "education_level": "9th_12th_no_diploma",
+      "bachelors_field": "",
+      "occupation": "no_occupation",
+      "city": "Lilburn",
+      "state": "GA",
+      "zipcode": "30047",
+      "latency_ms": 406.2654972076416
+    },
+    {
+      "uuid": "e7035edf5bc744c9912694a7d4b2a99c",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because it's a fun fact about baking, but I'm only slightly engaged since sourdough isn't my specialty.",
+      "sex": "Male",
+      "age": 49,
+      "marital_status": "divorced",
+      "education_level": "graduate",
+      "bachelors_field": "stem",
+      "occupation": "not_in_workforce",
+      "city": "Rochester",
+      "state": "NY",
+      "zipcode": "14618",
+      "latency_ms": 399.59716796875
+    },
+    {
+      "uuid": "d58d3c409dc44d8c8a2d4391f7b58c2e",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Nicole finds the post somewhat interesting but not particularly emotionally stirring since she prefers her solitary hobbies and doesn't bake.",
+      "sex": "Female",
+      "age": 61,
+      "marital_status": "married_present",
+      "education_level": "bachelors",
+      "bachelors_field": "stem_related",
+      "occupation": "personal_care_aide",
+      "city": "Morton Grove",
+      "state": "IL",
+      "zipcode": "60053",
+      "latency_ms": 347.9275703430176
+    },
+    {
+      "uuid": "4ddaf4c17316485982401f7c1221bfb4",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Michael Barron might be somewhat interested in trying sourdough, but he values routine and may not feel strongly about the change.",
+      "sex": "Male",
+      "age": 67,
+      "marital_status": "married_present",
+      "education_level": "some_college",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Fairview",
+      "state": "OR",
+      "zipcode": "97024",
+      "latency_ms": 367.6888942718506
+    },
+    {
+      "uuid": "ddf1acf224ff464a99a667ccaefe0da8",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting and somewhat inspiring to learn about sourdough baking, but I'm not overly passionate about it.",
+      "sex": "Male",
+      "age": 39,
+      "marital_status": "married_present",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "civil_engineer",
+      "city": "Menomonee Falls",
+      "state": "WI",
+      "zipcode": "53051",
+      "latency_ms": 355.1154136657715
+    },
+    {
+      "uuid": "9db61a6cad314a4c9bfdc3803e848771",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "I find this post interesting because I enjoy learning new things about cooking and baking, especially when it involves something as creative and rewarding as sourdough.",
+      "sex": "Female",
+      "age": 32,
+      "marital_status": "married_present",
+      "education_level": "associates",
+      "bachelors_field": "",
+      "occupation": "secretary_or_administrative_assistant",
+      "city": "Silex",
+      "state": "MO",
+      "zipcode": "63377",
+      "latency_ms": 395.69997787475586
+    },
+    {
+      "uuid": "8ab13dd84a2649998f9d18fdac98500d",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because sourdough baking aligns with my interest in culinary experimentation, but I'm not overly excited since I don't bake regularly.",
+      "sex": "Female",
+      "age": 31,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "construction_laborer",
+      "city": "San Dimas",
+      "state": "CA",
+      "zipcode": "91773",
+      "latency_ms": 418.8826084136963
+    },
+    {
+      "uuid": "62dd72a8a64c4c8196feee2dbfbc455f",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting and would like to try making sourdough, but I'm not overly excited about the revelation.",
+      "sex": "Male",
+      "age": 57,
+      "marital_status": "married_present",
+      "education_level": "graduate",
+      "bachelors_field": "stem",
+      "occupation": "database_administrator_or_architect",
+      "city": "Little Neck",
+      "state": "NY",
+      "zipcode": "11363",
+      "latency_ms": 354.8760414123535
+    },
+    {
+      "uuid": "92d0a5debc064decbf02f9694c7ffcc5",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because it aligns with my interest in DIY projects and natural living, but I'm not overly excited since I don't bake regularly.",
+      "sex": "Male",
+      "age": 22,
+      "marital_status": "never_married",
+      "education_level": "9th_12th_no_diploma",
+      "bachelors_field": "",
+      "occupation": "assembler_or_fabricator",
+      "city": "Coeur D Alene",
+      "state": "ID",
+      "zipcode": "83814",
+      "latency_ms": 414.66355323791504
+    },
+    {
+      "uuid": "5c7a4c6bd931407eb9390abd911ce338",
+      "likeability": 5,
+      "emotional_activation": 4,
+      "reasoning": "Sourdough baking aligns with my interest in experimenting with recipes and vintage kitchen appliances, making me very excited about this new information.",
+      "sex": "Male",
+      "age": 31,
+      "marital_status": "never_married",
+      "education_level": "associates",
+      "bachelors_field": "",
+      "occupation": "home_appliance_repairer",
+      "city": "Amsterdam",
+      "state": "NY",
+      "zipcode": "12010",
+      "latency_ms": 376.5277862548828
+    },
+    {
+      "uuid": "bd26ad126dd5433982e43c255f8a559b",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because I enjoy learning new things about food and baking, but sourdough seems a bit complex for my current skill level.",
+      "sex": "Male",
+      "age": 9,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Royse City",
+      "state": "TX",
+      "zipcode": "75189",
+      "latency_ms": 404.066801071167
+    },
+    {
+      "uuid": "a979cdc1dbcc4a68b2bdd8ddeac80e9f",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "John is not yet interested in baking or complex processes, so this post doesn't particularly engage him emotionally.",
+      "sex": "Male",
+      "age": 2,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Kennewick",
+      "state": "WA",
+      "zipcode": "99336",
+      "latency_ms": 331.2239646911621
+    },
+    {
+      "uuid": "f19ccc1f8b5345caa6ea89ada97a4092",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "I'm somewhat like this post because I enjoy trying new recipes and baking, but I'm not overly excited about sourdough being easier since I've always found it challenging.",
+      "sex": "Female",
+      "age": 18,
+      "marital_status": "never_married",
+      "education_level": "associates",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Ellensburg",
+      "state": "WA",
+      "zipcode": "98926",
+      "latency_ms": 428.8804531097412
+    },
+    {
+      "uuid": "531a542ff1714bb080d8f06f3cd2daff",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat neutral about sourdough being easier, but I'm slightly engaged because I enjoy experimenting with different types of bread.",
+      "sex": "Male",
+      "age": 17,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "San Diego",
+      "state": "CA",
+      "zipcode": "92129",
+      "latency_ms": 368.40152740478516
+    },
+    {
+      "uuid": "4a7db6a010474c5883a7bd81f70ebf6e",
+      "likeability": 5,
+      "emotional_activation": 3,
+      "reasoning": "I strongly like this post because it aligns with my interest in baking and sourdough, and it's exciting to learn something new about a hobby I enjoy.",
+      "sex": "Female",
+      "age": 19,
+      "marital_status": "never_married",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Milwaukee",
+      "state": "WI",
+      "zipcode": "53212",
+      "latency_ms": 414.6895408630371
+    },
+    {
+      "uuid": "95c14eefefb64bd78c55f1acc9fe7a34",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting to learn about different bread-making techniques, especially since I enjoy cooking and sharing recipes with my community.",
+      "sex": "Male",
+      "age": 72,
+      "marital_status": "married_present",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Spring",
+      "state": "TX",
+      "zipcode": "77373",
+      "latency_ms": 352.48875617980957
+    },
+    {
+      "uuid": "188c7cf4d08c465da99604340132fd19",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "While I'm somewhat intrigued by the claim, my interest is moderate as I prefer my food spicy and would rather focus on Ecuadorian cuisine.",
+      "sex": "Male",
+      "age": 33,
+      "marital_status": "never_married",
+      "education_level": "associates",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "North Attleboro",
+      "state": "MA",
+      "zipcode": "2760",
+      "latency_ms": 379.8022270202637
+    },
+    {
+      "uuid": "36028479b327434c897d1d3197b6ca28",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Terri finds gardening and baking relaxing, so she might be intrigued by the idea of making sourdough but isn't overly excited about it.",
+      "sex": "Female",
+      "age": 65,
+      "marital_status": "married_present",
+      "education_level": "graduate",
+      "bachelors_field": "education",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "zipcode": "48313",
+      "latency_ms": 388.51380348205566
+    },
+    {
+      "uuid": "bb2ffb6c1c0245c28ffd2b4da70c6668",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "While I'm not particularly passionate about sourdough, it's interesting to learn about its ease compared to regular bread, and I might consider trying it myself.",
+      "sex": "Female",
+      "age": 51,
+      "marital_status": "married_present",
+      "education_level": "some_college",
+      "bachelors_field": "",
+      "occupation": "first_line_supervisor_of_food_preparation_or_serving_worker",
+      "city": "Farmington",
+      "state": "MI",
+      "zipcode": "48334",
+      "latency_ms": 406.8779945373535
+    },
+    {
+      "uuid": "3751d3e035e64593bfd8eb53a8f75020",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "I'm excited to learn something new about baking and can't wait to try making sourdough myself!",
+      "sex": "Female",
+      "age": 26,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "waiter_or_waitress",
+      "city": "Modesto",
+      "state": "CA",
+      "zipcode": "95350",
+      "latency_ms": 334.9895477294922
+    },
+    {
+      "uuid": "8858f4df0aaa4fffb40eb10ce03f8f57",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm moderately interested because I enjoy learning new things about cooking, but sourdough seems a bit complicated for me right now.",
+      "sex": "Male",
+      "age": 8,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zipcode": "55432",
+      "latency_ms": 366.32752418518066
+    },
+    {
+      "uuid": "d866de38aeaa4ab5933b5a72f12647e5",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because it relates to my interest in cooking and experimenting with new recipes, but I'm not overly excited about sourdough specifically.",
+      "sex": "Male",
+      "age": 39,
+      "marital_status": "married_present",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Pompano Beach",
+      "state": "FL",
+      "zipcode": "33063",
+      "latency_ms": 406.203031539917
+    },
+    {
+      "uuid": "33f3ac37c7a54d59add8c203a508d6ab",
+      "likeability": 5,
+      "emotional_activation": 4,
+      "reasoning": "I'm very excited about learning something new in the kitchen and sharing tips with fellow sourdough enthusiasts.",
+      "sex": "Female",
+      "age": 27,
+      "marital_status": "never_married",
+      "education_level": "some_college",
+      "bachelors_field": "",
+      "occupation": "office_clerk_general",
+      "city": "Worcester",
+      "state": "MA",
+      "zipcode": "1605",
+      "latency_ms": 328.77182960510254
+    },
+    {
+      "uuid": "25d5a3da89f54bbebe985e5a798edb15",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm moderately interested since I enjoy trying new things in the kitchen, but sourdough seems like it might be too complex for my current cooking skills.",
+      "sex": "Male",
+      "age": 10,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zipcode": "11205",
+      "latency_ms": 401.4298915863037
+    },
+    {
+      "uuid": "866d3bfd9060413caef42d80d52ae10a",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Sourdough baking aligns with my interest in cooking and sharing traditional recipes, but I find it moderately engaging since I already enjoy making regular bread.",
+      "sex": "Male",
+      "age": 77,
+      "marital_status": "married_present",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Taunton",
+      "state": "MA",
+      "zipcode": "2780",
+      "latency_ms": 398.03242683410645
+    },
+    {
+      "uuid": "462c2ac6f3eb490fbabd979a0f20740d",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find sourdough interesting since I enjoy experimenting with different types of bread, but I'm not overly excited about it being easier than regular bread.",
+      "sex": "Female",
+      "age": 67,
+      "marital_status": "widowed",
+      "education_level": "bachelors",
+      "bachelors_field": "business",
+      "occupation": "not_in_workforce",
+      "city": "Carlsbad",
+      "state": "CA",
+      "zipcode": "92010",
+      "latency_ms": 392.336368560791
+    },
+    {
+      "uuid": "d59a8cf61ec54de199a3640e506ae608",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting but not particularly relevant to my gardening and home repair hobbies.",
+      "sex": "Male",
+      "age": 75,
+      "marital_status": "married_present",
+      "education_level": "9th_12th_no_diploma",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Puyallup",
+      "state": "WA",
+      "zipcode": "98374",
+      "latency_ms": 297.70541191101074
+    },
+    {
+      "uuid": "33fab35062c94a3a986db018cf7ad130",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting to learn about different baking techniques, but I'm not particularly passionate about sourdough.",
+      "sex": "Male",
+      "age": 26,
+      "marital_status": "never_married",
+      "education_level": "graduate",
+      "bachelors_field": "arts_humanities",
+      "occupation": "postsecondary_teacher",
+      "city": "Long Beach",
+      "state": "CA",
+      "zipcode": "90815",
+      "latency_ms": 339.30277824401855
+    },
+    {
+      "uuid": "78e5590f31e04d70a15bb8b80eba8781",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "John appreciates culinary creativity and would find the ease of sourdough interesting, but it's not a topic that deeply moves him.",
+      "sex": "Male",
+      "age": 36,
+      "marital_status": "never_married",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "sales_manager",
+      "city": "Columbus",
+      "state": "OH",
+      "zipcode": "43202",
+      "latency_ms": 377.72679328918457
+    },
+    {
+      "uuid": "f0b90da25a244a1f9b9c6616cadd65e9",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "Sourdough baking aligns with my structured and predictable nature, so I find it appealing.",
+      "sex": "Female",
+      "age": 65,
+      "marital_status": "married_present",
+      "education_level": "some_college",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Spirit Lake",
+      "state": "ID",
+      "zipcode": "83869",
+      "latency_ms": 318.4025287628174
+    },
+    {
+      "uuid": "f00db7d331e74b86a2491741396a9644",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting but not particularly relevant to my hobbies and interests.",
+      "sex": "Female",
+      "age": 40,
+      "marital_status": "never_married",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "network_or_computer_systems_administrator",
+      "city": "Glassboro",
+      "state": "NJ",
+      "zipcode": "8028",
+      "latency_ms": 284.93404388427734
+    },
+    {
+      "uuid": "68913ebfbcc3476498e19dc33ca4729c",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find it interesting and slightly engaging to learn about sourdough baking, but it doesn't stir up strong emotions as my hobbies lean more towards abstract art, music, and nature.",
+      "sex": "Female",
+      "age": 62,
+      "marital_status": "never_married",
+      "education_level": "bachelors",
+      "bachelors_field": "business",
+      "occupation": "insurance_sales_agent",
+      "city": "Springtown",
+      "state": "TX",
+      "zipcode": "76082",
+      "latency_ms": 444.52428817749023
+    },
+    {
+      "uuid": "c74fc3f9e84849b8a9f9ed857807c68f",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "While I find the idea interesting, my anxiety might slightly stir up some doubts about taking on another baking project.",
+      "sex": "Male",
+      "age": 49,
+      "marital_status": "married_present",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Queens Village",
+      "state": "NY",
+      "zipcode": "11427",
+      "latency_ms": 336.1937999725342
+    },
+    {
+      "uuid": "cc086016d63c48b79246de8e710ec6b7",
+      "likeability": 4,
+      "emotional_activation": 3,
+      "reasoning": "I find sourdough interesting and it aligns with my curiosity about experimenting with new recipes, but I'm not a big baker so it doesn't stir me up too much.",
+      "sex": "Female",
+      "age": 23,
+      "marital_status": "never_married",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "dental_assistant",
+      "city": "Hardin",
+      "state": "IL",
+      "zipcode": "62047",
+      "latency_ms": 436.6602897644043
+    },
+    {
+      "uuid": "8a3a330d3edd4a3f883fcb736afe3516",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find sourdough interesting and would be excited to try making it, but I'm not overly passionate about it since I prefer coffee and watercolor sketching.",
+      "sex": "Female",
+      "age": 20,
+      "marital_status": "never_married",
+      "education_level": "9th_12th_no_diploma",
+      "bachelors_field": "",
+      "occupation": "host_or_hostess_restaurant_lounge_or_coffee_shop",
+      "city": "Fountain Valley",
+      "state": "CA",
+      "zipcode": "92708",
+      "latency_ms": 415.36617279052734
+    },
+    {
+      "uuid": "72d73e3748e44d8fa7ac8dc8e42f0d4b",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat curious but not overly excited about sourdough bread making since it's a bit beyond my current skill level and interests.",
+      "sex": "Female",
+      "age": 1,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Fayetteville",
+      "state": "NC",
+      "zipcode": "28304",
+      "latency_ms": 374.06444549560547
+    },
+    {
+      "uuid": "527faef6dc3f4309885fe26706c5b3ac",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat neutral about sourdough bread, but I find it interesting that it might be easier to make than regular bread.",
+      "sex": "Male",
+      "age": 24,
+      "marital_status": "never_married",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "electrical_power_line_installer_or_repairer",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "zipcode": "15213",
+      "latency_ms": 364.40587043762207
+    },
+    {
+      "uuid": "3bab1a650de445ae88ec28c5536282b2",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat neutral about sourdough being easier since I'm more interested in mural painting and community art workshops.",
+      "sex": "Female",
+      "age": 19,
+      "marital_status": "never_married",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "El Paso",
+      "state": "TX",
+      "zipcode": "79938",
+      "latency_ms": 344.07496452331543
+    },
+    {
+      "uuid": "4913229383014b649940485b3acb73b1",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "I'm neutral about sourdough being easier but slightly engaged because I enjoy trying new recipes and might consider making it myself.",
+      "sex": "Male",
+      "age": 18,
+      "marital_status": "never_married",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "not_in_workforce",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "2215",
+      "latency_ms": 358.0300807952881
+    },
+    {
+      "uuid": "eb31fcc31eb345acb316d9fc051d6b8e",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "Omar is too young to have a strong opinion, but the post doesn't seem particularly relevant to his current stage of life.",
+      "sex": "Male",
+      "age": 0,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Hereford",
+      "state": "TX",
+      "zipcode": "79045",
+      "latency_ms": 362.72597312927246
+    },
+    {
+      "uuid": "72672ab44e4b4e40a94e44b91913cfef",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Sourdough baking sounds fun and I enjoy experimenting with new recipes, but it's not something I've tried yet.",
+      "sex": "Female",
+      "age": 15,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Bear",
+      "state": "DE",
+      "zipcode": "19701",
+      "latency_ms": 350.9049415588379
+    },
+    {
+      "uuid": "dbed952d9bec40ba80b4715a088c1f74",
+      "likeability": 5,
+      "emotional_activation": 3,
+      "reasoning": "As an avid home chef, I find sourdough baking both a fun challenge and a rewarding hobby, so this post resonates with me.",
+      "sex": "Male",
+      "age": 52,
+      "marital_status": "married_present",
+      "education_level": "graduate",
+      "bachelors_field": "stem",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "zipcode": "48302",
+      "latency_ms": 390.1543617248535
+    },
+    {
+      "uuid": "e8b9d4f627764bab903fffc467f1590a",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "It's a fun fact, but not really relevant to my interests or skills.",
+      "sex": "Male",
+      "age": 58,
+      "marital_status": "divorced",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "painting_worker",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "zipcode": "90278",
+      "latency_ms": 298.96068572998047
+    },
+    {
+      "uuid": "58c03faba45d40f79f6dac7c3eb612fd",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I find sourdough baking to be a fascinating hobby, so I appreciate learning that it's not as daunting as I thought.",
+      "sex": "Male",
+      "age": 47,
+      "marital_status": "married_present",
+      "education_level": "bachelors",
+      "bachelors_field": "stem",
+      "occupation": "computer_systems_analyst",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "zipcode": "48304",
+      "latency_ms": 367.8874969482422
+    },
+    {
+      "uuid": "0e2d3b13dbb74d16a7f43640cd47d571",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "Sourdough baking aligns with my interest in outdoor activities and hobbies, so I find it somewhat intriguing.",
+      "sex": "Male",
+      "age": 73,
+      "marital_status": "divorced",
+      "education_level": "high_school",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipcode": "73132",
+      "latency_ms": 333.42599868774414
+    },
+    {
+      "uuid": "202953463f1243d798d4ed09992c7827",
+      "likeability": 4,
+      "emotional_activation": 2,
+      "reasoning": "I'm somewhat like this post because I enjoy trying new recipes, but I'm not overly excited since I've never made sourdough before.",
+      "sex": "Female",
+      "age": 7,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Monroeville",
+      "state": "PA",
+      "zipcode": "15146",
+      "latency_ms": 386.2454891204834
+    },
+    {
+      "uuid": "5e7132dcc2fb47caba7b5bdfdc77fb24",
+      "likeability": 3,
+      "emotional_activation": 2,
+      "reasoning": "It's interesting, but I'm more into outdoor activities and building things with LEGO.",
+      "sex": "Male",
+      "age": 5,
+      "marital_status": "never_married",
+      "education_level": "less_than_9th",
+      "bachelors_field": "",
+      "occupation": "not_in_workforce",
+      "city": "Quitman",
+      "state": "LA",
+      "zipcode": "71268",
+      "latency_ms": 298.0365753173828
+    }
+  ]
+}

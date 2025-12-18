@@ -1,0 +1,123 @@
+.stats-dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-bottom: 40px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+}
+
+.stat-card {
+  padding: 35px 30px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.stat-card:last-child {
+  border-right: none;
+}
+
+.stat-card.main-stat {
+  /* No special styling needed */
+}
+
+.stat-value {
+  font-size: 52px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: #121212;
+}
+
+.stat-value-large {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: #121212;
+}
+
+.stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.stat-subtitle {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.stat-distribution {
+  margin-top: 20px;
+}
+
+.stat-distribution-10 .dist-bar {
+  margin-bottom: 5px;
+}
+
+.stat-distribution-10 .dist-bar-container {
+  height: 16px;
+}
+
+.stat-distribution-10 .dist-label {
+  font-size: 12px;
+}
+
+.stat-distribution-10 .dist-count {
+  font-size: 11px;
+}
+
+.dist-bar {
+  display: grid;
+  grid-template-columns: 24px 1fr 40px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.dist-label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.dist-bar-container {
+  height: 20px;
+  background: #f0f0f0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.dist-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4a90e2 0%, #357abd 100%);
+  transition: width 0.3s ease;
+}
+
+.dist-bar-fill.emotional {
+  background: linear-gradient(90deg, #e24a4a 0%, #bd3535 100%);
+}
+
+.dist-count {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+}
+
+.stat-meta {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+.stat-meta > div {
+  margin-bottom: 5px;
+}
