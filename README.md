@@ -58,6 +58,9 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 16](src/day16/) | **ENGRAM for Wiki Search** — ENGRAM meets tool use. A multi-turn agent learns Wikipedia search strategies through skill refinement and cartridge distillation, improving from 0% to 40% accuracy on trivia questions. |
 | [Day 17](src/day17/) | **Synthetic Persona Simulation** — Simulate how 1M AI personas (NVIDIA's Nemotron-Personas-USA) react to any content. Interactive NYT-style dashboard visualizes results across geography, age, education, and more. |
 | [Day 18](src/day18/) | **GRPO with Persona Judges** — Train models to write content that resonates with specific demographics. Use 1M synthetic personas as judges in GRPO training, watch your model learn to beat GPT-4.1 with your target audience. |
+| [Day 19](src/day19/) | **Evolution Strategies for LLMs** — Gradient-free fine-tuning using Evolution Strategies. Perturb weights, evaluate with greedy decoding, update based on reward-weighted noise. Testing claims from "ES at Scale" paper on MATH dataset. |
+| [Day 20](src/day20/) | **Training Small Reasoning Models on SYNTH** — Train a 56M parameter reasoning model from scratch on PleIAs's SYNTH dataset. Full pipeline: download 68M samples, pre-tokenize, distributed training on 4x H100 in ~1 hour. |
+| [Day 21](src/day21/) | **NEFTune for Format Learning** — Add noisy embeddings (NEFTune) to small model training. Surprising result: +19% improvement in format compliance (`<think>...</think>` structure) even though training loss didn't improve. |
 
 ---
 
