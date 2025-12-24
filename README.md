@@ -61,6 +61,10 @@ Each day's experiment lives in `src/day_XX/` with its own README documenting the
 | [Day 19](src/day19/) | **Evolution Strategies for LLMs** — Gradient-free fine-tuning using Evolution Strategies. Perturb weights, evaluate with greedy decoding, update based on reward-weighted noise. Testing claims from "ES at Scale" paper on MATH dataset. |
 | [Day 20](src/day20/) | **Training Small Reasoning Models on SYNTH** — Train a 56M parameter reasoning model from scratch on PleIAs's SYNTH dataset. Full pipeline: download 68M samples, pre-tokenize, distributed training on 4x H100 in ~1 hour. |
 | [Day 21](src/day21/) | **NEFTune for Format Learning** — Add noisy embeddings (NEFTune) to small model training. Surprising result: +19% improvement in format compliance (`<think>...</think>` structure) even though training loss didn't improve. |
+| [Day 22](src/day22/) | **Weighted Loss for Reasoning** — Weight `<think>` tokens at 0.5× compared to answer tokens during training. Best format compliance yet: 82.3% valid rate (+31% over baseline), though accuracy slightly lower. |
+| [Day 23](src/day23/) | **Looped Reasoning Layers** — Custom GPT-style transformer where the last 10% of layers loop multiple times with LayerNorm between iterations. Testing if iterative computation on reasoning layers improves performance. |
+| [Day 24](src/day24/) | **GRPO with LLM-as-Judge** — Train reasoning without ground truth labels. GPT-4.1 judges which of 4 reasoning chains is "better" in round-robin comparisons; win rate becomes the reward signal. Moved the needle (+0.2%) purely from preference over reasoning quality. |
+| [Day 25](src/day25/) | **Reading List** — Final day! Curated reading list from mid-November to December 20th - papers, repos, and ideas found on Twitter. |
 
 ---
 

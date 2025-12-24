@@ -1,6 +1,28 @@
 # Day 24: GRPO with LLM-as-Judge on MMLU
 
-Train a model using GRPO with GPT-4.1 as a pairwise comparison judge.
+## The Problem
+
+Can we improve a model's reasoning ability **without any ground truth labels**?
+
+Traditional RLHF and GRPO approaches for math/reasoning tasks rely on verifiable rewards - you check if the model got the right answer, and use that as the reward signal. But this requires:
+1. Problems with clear correct answers
+2. A reliable way to extract and verify those answers
+3. Often, expensive human annotation or carefully curated datasets
+
+What if we could improve reasoning using only **preference comparisons**? The idea: generate multiple reasoning chains for the same problem, have an LLM judge which reasoning is "better", and use that preference signal to train.
+
+## The Approach
+
+We use [Baguettotron](https://huggingface.co/PleIAs/Baguettotron), a 7B model trained by PleIAs that uses a `<think>...</think>` format for chain-of-thought reasoning. The model first thinks through the problem, then gives its answer.
+
+For each training step:
+1. **Sample a random MMLU question** (from all 57 subjects)
+2. **Generate 4 different completions** from the model
+3. **Round-robin pairwise comparison**: GPT-4.1 judges all 6 pairs, asking "which answer demonstrates better reasoning?"
+4. **Win rate = reward**: Each completion's reward is how many of its 3 matchups it won (0 to 1)
+5. **GRPO update**: Use normalized rewards as advantages for policy gradient
+
+The key insight: we never tell the model which answer is *correct* - only which *reasoning process* GPT-4.1 prefers. Can preference over reasoning style translate to actual accuracy improvements?
 
 ## Results
 
@@ -15,7 +37,13 @@ Unfortunately, the experiment didn't show significant improvements. The best che
 | 500 | 36.08% | -0.54% |
 | final | 36.74% | +0.11% |
 
-That said, it's interesting that we got *any* improvement just from ranking which reasoning modes were better, without any ground truth signal. The reward was purely "which of these 4 completions has better reasoning according to GPT-4.1?" - no correctness checking at all. So the fact that it moved the needle at all suggests this approach could be worth exploring further with more steps or different hyperparameters.
+That said, it's interesting that we got *any* improvement just from ranking reasoning quality, without any ground truth signal. The reward was purely "which of these 4 completions has better reasoning according to GPT-4.1?" - no correctness checking at all. 
+
+The fact that it moved the needle at all (even if within noise) suggests this approach could be worth exploring further with:
+- More training steps
+- Better judge prompts (maybe asking about logical coherence, step validity, etc.)
+- Combining with weak correctness signals
+- Different base models
 
 ![MMLU Accuracy](figs/mmlu_accuracy_line.png)
 
